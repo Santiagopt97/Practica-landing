@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;  
   font-family: Nunito;
+  scroll-behavior: smooth;
 }
 
 :root{
@@ -13,6 +14,12 @@
     --beige: #dfd7cc;
     --red: #75222a;
 }
+
+/* body{
+    background-image: url(../../public/img/menu.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 
 #header{
     position: fixed;
@@ -26,6 +33,12 @@
 
 #logo{
     margin-left: 15px;
+}
+
+.div-kufesa{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 #nav{
@@ -47,7 +60,81 @@
     padding-top: 100px;
 }
 
-.img{
-    position: relative;
-    left: 50px;
+#productos{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#carta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-menu{
+    height: 500px;
+}
+
+#productos2{
+    padding-top: 100px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .img{
+    height: 300px;
+ }
+ 
+
+ #contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .texto-centrado {
+        text-align: center;
+    }
+    
+    .campo{
+        margin: 10px 0;
+    }
+    
+    .input{
+        border: 2px solid var(--azul);
+        border-radius: 5px;
+        width: 100%;
+        padding: 5px 10px;
+    }
+    
+    .input:focus{
+        outline: 2px solid var(--azul);
+    }
+    
+    #enviar{
+        background-color: var(--dark-azul);
+        border-radius: 5px;
+        font-weight: bolder;
+        color: var(--blanco);
+        padding: 10px;
+        width: 50%;
+        margin: 0 25%;
+    } 
+
+ #footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--beige);
+    padding-left: 15px;
+ }
+
+ #redes{
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+ }
