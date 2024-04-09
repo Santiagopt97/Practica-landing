@@ -24,6 +24,13 @@
     background-color: var(--red);
 }
 
+a:hover{/*  ESTA ES LA CLASE DE TODOS LOS ICONOS, Y EL HOVER ES PARA QUE AL PASAR EL MOUSE, SE VEA QUE VA A SELECCIONAR ALGO, CAMBIA A LA MANITO */
+    cursor: pointer; /* SE CAMBIA EL CURSOS */
+    color: green; /* AL PASAR EL MOUSE POR LOS ICONOS, SE PONEN DE VERDE */
+    transition: all 0.5s;/*  CUANDO SE PONE EL MOUSE, EL ICONO SE EXALTA */
+    transform: scale(1.15);
+    padding-right: 10px;
+}
 
 #header{
     position: fixed;
